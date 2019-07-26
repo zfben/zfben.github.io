@@ -1,0 +1,118 @@
+@keyframes rotateIcon {
+  0% { transform: rotate(0) }
+  50% { transform: rotate(360deg) }
+  100% { transform: rotate(0) }
+}
+
+body{
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 1em;
+  padding-top: 2em;
+}
+
+.saying{
+  color: #999;
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
+.avatar{
+  width: 5em;
+  border-radius: 50%;
+}
+
+h1{
+  margin: 0.8em 0;
+  font-size: 3em;
+}
+
+div div{
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+a{
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+
+.social a{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.social a:hover{
+    animation-duration: 2s;
+    animation-name: rotateIcon;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.contact{
+  margin: 1em auto 0;
+  width: 9em;
+  height: 2em;
+  cursor: pointer;
+  position: relative;
+  background: #fff;
+}
+.contact a{
+    border: 1px solid #333;
+    border-radius: 0.3em;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.front{
+  z-index: 1;
+  background: #fff;
+}
+body.active .front{
+  transform: rotateX(-180deg);
+  backface-visibility: hidden;
+  transition: 2s;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000;
+}
+.back{
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  color: #fff;
+  font-family: ‎Sans-serif;
+}
+
+.lang{
+  padding-top: 2em;
+}
+.lang a{
+    font-size: 16px;
+    margin: 0 0.5em;
+}
+.lang a:hover{
+      text-decoration: underline;
+}
+
+.top{
+  margin-right: 10px;
+}
+
+.footer{
+  margin-top: 3em;
+  color: #ccc;
+  font-size: 0.7em;
+  text-align: right;
+}
+.footer a{
+    color: #aaa;
+}
+
+body.cn{
+  font-family: "Hiragino Sans GB", "冬青体", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", serif;
+}
