@@ -10,10 +10,7 @@
   "dependencies": {
     "next": "*",
     "react": "*",
-    "react-dom": "*",
-    "next-compose-plugins": "*",
-    "next-optimized-images": "*",
-    "imagemin-mozjpeg": "*"
+    "react-dom": "*"
   },
   "devDependencies": {
     "@types/node": "*",
