@@ -20,7 +20,11 @@ body{
 }
 
 .avatar{
+  display: block;
+  margin: 0 auto;
   width: 5em;
+}
+.avatar img{
   border-radius: 50%;
 }
 
@@ -85,7 +89,7 @@ body.active .front{
   margin: 0;
   background: #333;
   color: #fff;
-  font-family: ‎Sans-serif;
+  font-family: Sans-serif;
 }
 
 .lang{

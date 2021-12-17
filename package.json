@@ -1,0 +1,30 @@
+{
+  "name": "@zfben/zfben",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build && next export -o docs"
+  },
+  "dependencies": {
+    "next": "*",
+    "react": "*",
+    "react-dom": "*",
+    "next-compose-plugins": "*",
+    "next-optimized-images": "*",
+    "imagemin-mozjpeg": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/react": "*",
+    "eslint-config-next": "*",
+    "typescript": "*",
+    "@faasjs/eslint-config-react": "^0.0.2-beta.257"
+  },
+  "eslintConfig": {
+    "extends": [
+      "next/core-web-vitals",
+      "@faasjs/react"
+    ]
+  }
+}
