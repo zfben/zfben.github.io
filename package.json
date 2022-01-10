@@ -17,7 +17,7 @@
     "@types/react": "*",
     "eslint-config-next": "*",
     "typescript": "*",
-    "@faasjs/eslint-config-react": "^0.0.2-beta.257"
+    "@faasjs/eslint-config-react": "^0.0.2-beta.334"
   },
   "eslintConfig": {
     "extends": [
