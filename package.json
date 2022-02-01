@@ -10,14 +10,20 @@
   "dependencies": {
     "next": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "@next/mdx": "*",
+    "@mdx-js/loader": "*"
   },
   "devDependencies": {
     "@types/node": "*",
     "@types/react": "*",
+    "@types/mdx": "*",
     "eslint-config-next": "*",
     "typescript": "*",
-    "@faasjs/eslint-config-react": "^0.0.2-beta.357"
+    "@faasjs/eslint-config-react": "^0.0.2-beta.357",
+    "postcss": "*",
+    "tailwindcss": "*",
+    "autoprefixer": "*"
   },
   "eslintConfig": {
     "extends": [

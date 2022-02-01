@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
+const withMDX = require('@next/mdx')({ extension: /\.mdx?$/ })
 
-module.exports = {
+module.exports = withMDX({
   reactStrictMode: true,
-  images: {loader: 'custom'}
-};
+  images: { loader: 'custom' },
+  pageExtensions: [
+    "tsx",
+    "md",
+    "mdx"
+  ]
+})

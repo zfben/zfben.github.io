@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @keyframes rotateIcon {
   0% { transform: rotate(0) }
   50% { transform: rotate(360deg) }
@@ -8,9 +12,12 @@ body{
   background: #fff;
   color: #333;
   line-height: 1.6;
-  text-align: center;
   font-size: 1em;
+}
+
+.home {
   padding-top: 10vh;
+  text-align: center;
 }
 
 .saying{
@@ -28,17 +35,17 @@ body{
   border-radius: 50%;
 }
 
-h1{
+.home h1{
   margin: 2vh 0;
   font-size: 3em;
 }
 
-div div{
+.home div div{
   margin-bottom: 0.5em;
   line-height: 1.6;
 }
 
-a{
+.home a{
   display: inline-block;
   color: #333;
   text-decoration: none;
@@ -110,13 +117,18 @@ body.active .front{
 .footer{
   margin-top: 10vh;
   color: #ccc;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   text-align: center;
 }
 .footer a{
   color: #aaa;
 }
 
-body.cn{
-  font-family: "Hiragino Sans GB", "冬青体", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", serif;
+.blog-post h2 {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.blog-post h2, h3{
+  font-weight: bold;
 }

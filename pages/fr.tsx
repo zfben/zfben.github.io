@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Page: NextPage = () => {
   return (
-    <div className='en'>
+    <div className='home en'>
       <Head>
         <title>寂静小站 Silence Space</title>
         <meta
@@ -44,10 +44,10 @@ const Page: NextPage = () => {
         <Link
           href="/">English</Link>
         <Link
-          href="/cn">中文</Link>
+          href="/zh">中文</Link>
       </div>
       <div className="footer">
-        &copy; 2007-2021&nbsp;
+        &copy; 2007-2022&nbsp;
         <a href="http://zfben.com">Zfben.com</a>
         &nbsp;All Rights Reserved.
       </div>
