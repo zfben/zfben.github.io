@@ -51,6 +51,14 @@ body{
   text-decoration: none;
 }
 
+.links {
+  margin-top: 1em;
+}
+
+.links a {
+  text-decoration: underline;
+}
+
 .social a{
   font-size: 1.2em;
   margin: 1em;

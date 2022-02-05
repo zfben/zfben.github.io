@@ -26,6 +26,9 @@ const Page: NextPage = () => {
       </div>
       <h1>朱峰</h1>
       <div>在上海的全栈工程师</div>
+      <div className="links">
+        <Link href="/blog">博客</Link>
+      </div>
       <div className="social">
         <a href="https://twitter.com/zfben">
           <i className="fa fa-twitter"></i>
