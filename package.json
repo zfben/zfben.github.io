@@ -12,7 +12,8 @@
     "react": "*",
     "react-dom": "*",
     "@next/mdx": "*",
-    "@mdx-js/loader": "*"
+    "@mdx-js/loader": "*",
+    "remark-gfm": "*"
   },
   "devDependencies": {
     "@types/node": "*",

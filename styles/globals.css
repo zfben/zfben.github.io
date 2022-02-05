@@ -140,3 +140,21 @@ body.active .front{
 .blog-post h2, h3{
   font-weight: bold;
 }
+
+.blog-post table {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0/0.05);
+}
+
+.blog-post th,td {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+.blog-post th {
+  background-color: rgb(229, 231, 235);
+  font-weight: normal;
+}
+
+.blog-post a {
+  color: #333;
+}

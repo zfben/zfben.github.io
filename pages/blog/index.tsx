@@ -6,7 +6,7 @@ import Link from 'next/link'
 const posts = [
   {
     title: '你的人生观取向是什么？',
-    date: '2022-02-05',
+    date: '2022-02-06',
   },
   {
     title: '拜年及汇报今年年度目标的进展',
