@@ -101,14 +101,4 @@ div :global(.lang a:hover) {
 .top{
   margin-right: 10px;
 }
-
-.footer{
-  margin-top: 10vh;
-  color: #ccc;
-  font-size: 0.7rem;
-  text-align: center;
-}
-div :global(.footer a){
-  color: #aaa;
-}
 `

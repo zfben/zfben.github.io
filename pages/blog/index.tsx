@@ -20,20 +20,15 @@ const Page: NextPage = () => {
       <title>Blog | 寂静小站 Silence Space</title>
     </Head>
     <h1 className='font-bold'>Blog</h1>
-    <ul className='my-2'>
+    <ul className='my-2 list-disc list-inside'>
       {posts.map(post => <li key={ post.date }>
         <Link href={ `/blog/${post.date}` }><a>
-          {post.title}
+          <span className='hover:underline'>{post.title}</span>
           <span className='text-gray-400 pl-2'>{post.date}</span>
         </a>
         </Link>
       </li>)}
     </ul>
-    <div className="footer">
-      &copy; 2007-2022&nbsp;
-      <a href="http://zfben.com">Zfben.com</a>
-        &nbsp;All Rights Reserved.
-    </div>
   </div>
 }
 

@@ -51,11 +51,6 @@ const Page: NextPage = () => {
         <Link
           href="/zh">中文</Link>
       </div>
-      <div className="footer">
-        &copy; 2007-2022&nbsp;
-        <a href="http://zfben.com">Zfben.com</a>
-        &nbsp;All Rights Reserved.
-      </div>
     </div>
   )
 }
