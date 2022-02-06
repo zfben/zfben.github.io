@@ -2,10 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { styles } from './home.styles'
 
 const Page: NextPage = () => {
   return (
     <div className='home en'>
+      <style jsx>{styles}</style>
       <Head>
         <title>寂静小站 Silence Space</title>
         <meta
