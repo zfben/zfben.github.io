@@ -5,6 +5,10 @@ import Link from 'next/link'
 
 const posts = [
   {
+    title: '战争与和平',
+    date: '2022-03-05', 
+  },
+  {
     title: '你的人生观取向是什么？',
     date: '2022-02-06',
   },
