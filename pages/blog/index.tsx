@@ -5,8 +5,12 @@ import Link from 'next/link'
 
 const posts = [
   {
+    title: '一款可终生使用的笔记软件，需要有哪些特点？',
+    date: '2022-03-20',
+  },
+  {
     title: '战争与和平',
-    date: '2022-03-05', 
+    date: '2022-03-05',
   },
   {
     title: '你的人生观取向是什么？',
