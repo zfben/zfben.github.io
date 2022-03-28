@@ -5,6 +5,10 @@ import Link from 'next/link'
 
 const posts = [
   {
+    title: '聊聊财务健康',
+    date: '2022-03-28',
+  },
+  {
     title: '一款可终生使用的笔记软件，需要有哪些特点？',
     date: '2022-03-20',
   },
