@@ -29,7 +29,7 @@ function MyApp ({ Component, pageProps }: AppProps) {
         className='text-gray-600'>Zfben.com</a>
         &nbsp;All Rights Reserved.
     </div>
-    <Script id='mcjs'>{'!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/38584a031e9e2f3f5cef06d4f/e70f6adde0a9d7d413e03e78a.js")'}</Script>
+    {/* <Script id='mcjs'>{'!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/38584a031e9e2f3f5cef06d4f/e70f6adde0a9d7d413e03e78a.js")'}</Script> */}
   </>
 }
 
