@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Silence Space Blog</title>
+        <link>https://zfben.com/blog</link>
+        <description>undefined</description>
+        <lastBuildDate>Fri, 29 Apr 2022 08:19:19 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Zfben.com All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[一人企业：增长不是唯一的商业路径]]></title>
+            <link>https://zfben.com/blog/2022-04-29</link>
+            <guid>https://zfben.com/blog/2022-04-29</guid>
+            <pubDate>Fri, 29 Apr 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[聊聊财务健康]]></title>
+            <link>https://zfben.com/blog/2022-03-28</link>
+            <guid>https://zfben.com/blog/2022-03-28</guid>
+            <pubDate>Mon, 28 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一款可终生使用的笔记软件，需要有哪些特点？]]></title>
+            <link>https://zfben.com/blog/2022-03-20</link>
+            <guid>https://zfben.com/blog/2022-03-20</guid>
+            <pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[战争与和平]]></title>
+            <link>https://zfben.com/blog/2022-03-05</link>
+            <guid>https://zfben.com/blog/2022-03-05</guid>
+            <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[你的人生观取向是什么？]]></title>
+            <link>https://zfben.com/blog/2022-02-06</link>
+            <guid>https://zfben.com/blog/2022-02-06</guid>
+            <pubDate>Sun, 06 Feb 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[拜年及汇报今年年度目标的进展]]></title>
+            <link>https://zfben.com/blog/2022-02-01</link>
+            <guid>https://zfben.com/blog/2022-02-01</guid>
+            <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
