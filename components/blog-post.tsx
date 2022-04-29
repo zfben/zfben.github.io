@@ -10,6 +10,20 @@ export default function BlogPost ({ children, meta }: {
   return <div className='mx-auto p-4'>
     <Head>
       <title>{meta.title} | Blog | 寂静小站 Silence Space</title>
+      <meta
+        property="og:title"
+        content={ meta.title }
+      />
+      <meta
+        property="og:type"
+        content="article" />
+      <meta
+        property="og:url"
+        content={ 'https://zfben.com/blog/' + meta.date } />
+      <meta
+        property='og:image'
+        content='https://zfben.com/_next/static/media/header.cd14aab7.jpg'
+      />
     </Head>
     <h1 className='font-bold'>{meta.title}</h1>
     <div className='text-gray-400 text-sm'>{meta.date}</div>
