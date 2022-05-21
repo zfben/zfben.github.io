@@ -9,7 +9,7 @@ const Page: NextPage = () => {
     <div className='home en'>
       <style jsx>{styles}</style>
       <Head>
-        <title>寂静小站 Silence Space</title>
+        <title>你好，我是朱峰</title>
         <meta
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0， minimal-ui"
           name="viewport"
@@ -17,6 +17,16 @@ const Page: NextPage = () => {
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+        />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://zfben.com/"
+        />
+        <link
+          rel="alternate"
+          hrefLang="fr"
+          href="https://zfben.com/fr"
         />
       </Head>
       <div className="avatar">
@@ -26,8 +36,8 @@ const Page: NextPage = () => {
           alt="Avatar"
         />
       </div>
-      <h1>朱峰</h1>
-      <div>在上海的全栈工程师</div>
+      <h1>你好，我是朱峰</h1>
+      <div>一名在上海的全栈工程师</div>
       <div className="links">
         <Link href="/blog">博客</Link>
       </div>

@@ -9,7 +9,7 @@ const Page: NextPage = () => {
     <div className='home en'>
       <style jsx>{styles}</style>
       <Head>
-        <title>寂静小站 Silence Space</title>
+        <title>Hi, I&apos;m Ben.</title>
         <meta
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0， minimal-ui"
           name="viewport"
@@ -17,6 +17,16 @@ const Page: NextPage = () => {
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+        />
+        <link
+          rel="alternate"
+          hrefLang="zh"
+          href="https://zfben.com/zh"
+        />
+        <link
+          rel="alternate"
+          hrefLang="fr"
+          href="https://zfben.com/fr"
         />
       </Head>
       <div className="avatar">

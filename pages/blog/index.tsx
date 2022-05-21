@@ -7,6 +7,10 @@ import { writeFileSync } from 'fs'
 
 const posts = [
   {
+    title: '瞬息全宇宙：Can we stop fighting?',
+    date: '2022-05-21',
+  },
+  {
     title: '一人企业：增长不是唯一的商业路径',
     date: '2022-04-29',
   },
@@ -35,7 +39,7 @@ const posts = [
 export const getStaticProps = async () => {
   const feed = new Feed({
     id: 'https://zfben.com/blog',
-    title: 'Silence Space Blog',
+    title: 'Ben\'s Blog',
     link: 'https://zfben.com/blog',
     copyright: 'Zfben.com All Rights Reserved.'
   })
@@ -55,7 +59,7 @@ export const getStaticProps = async () => {
 const Page: NextPage = () => {
   return <div className='max-w-md mx-auto p-4'>
     <Head>
-      <title>Blog | 寂静小站 Silence Space</title>
+      <title>Ben&apos;s Blog</title>
     </Head>
     <h1 className='font-bold'>
       Blog
