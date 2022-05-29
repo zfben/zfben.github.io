@@ -4,10 +4,16 @@
         <title>Ben's Blog</title>
         <link>https://zfben.com/blog</link>
         <description>undefined</description>
-        <lastBuildDate>Sat, 21 May 2022 03:23:35 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 May 2022 00:30:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Zfben.com All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[我常用的阅读软件和网站]]></title>
+            <link>https://zfben.com/blog/2022-05-29</link>
+            <guid>https://zfben.com/blog/2022-05-29</guid>
+            <pubDate>Sun, 29 May 2022 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[瞬息全宇宙：Can we stop fighting?]]></title>
             <link>https://zfben.com/blog/2022-05-21</link>
