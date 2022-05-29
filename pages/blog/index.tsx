@@ -7,6 +7,10 @@ import { writeFileSync } from 'fs'
 
 const posts = [
   {
+    title: '我常用的阅读软件和网站',
+    date: '2022-05-29',
+  },
+  {
     title: '瞬息全宇宙：Can we stop fighting?',
     date: '2022-05-21',
   },
