@@ -7,7 +7,7 @@ import { writeFileSync } from 'fs'
 
 const posts = [
   {
-    title: '我常用的阅读软件和网站',
+    title: '我常用的读书软件',
     date: '2022-05-29',
   },
   {
