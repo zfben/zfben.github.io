@@ -7,6 +7,10 @@ import { writeFileSync } from 'fs'
 
 const posts = [
   {
+    title: '用觉察解决大脑的问题',
+    date: '2022-06-08',
+  },
+  {
     title: '我常用的读书软件',
     date: '2022-05-29',
   },
@@ -53,6 +57,7 @@ export const getStaticProps = async () => {
     id: `https://zfben.com/blog/${p.date}`,
     link: `https://zfben.com/blog/${p.date}`,
     date: new Date(p.date),
+    content: `Please read the article at <a href="https://zfben.com/blog/${p.date}">https://zfben.com/blog/${p.date}</a>`
   }))
 
   writeFileSync('public/blog.rss.xml', feed.rss2())

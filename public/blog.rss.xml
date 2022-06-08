@@ -1,60 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Ben's Blog</title>
         <link>https://zfben.com/blog</link>
         <description>undefined</description>
-        <lastBuildDate>Sun, 29 May 2022 01:49:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jun 2022 04:02:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Zfben.com All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[用觉察解决大脑的问题]]></title>
+            <link>https://zfben.com/blog/2022-06-08</link>
+            <guid>https://zfben.com/blog/2022-06-08</guid>
+            <pubDate>Wed, 08 Jun 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-06-08">https://zfben.com/blog/2022-06-08</a>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[我常用的读书软件]]></title>
             <link>https://zfben.com/blog/2022-05-29</link>
             <guid>https://zfben.com/blog/2022-05-29</guid>
             <pubDate>Sun, 29 May 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-05-29">https://zfben.com/blog/2022-05-29</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[瞬息全宇宙：Can we stop fighting?]]></title>
             <link>https://zfben.com/blog/2022-05-21</link>
             <guid>https://zfben.com/blog/2022-05-21</guid>
             <pubDate>Sat, 21 May 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-05-21">https://zfben.com/blog/2022-05-21</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[一人企业：增长不是唯一的商业路径]]></title>
             <link>https://zfben.com/blog/2022-04-29</link>
             <guid>https://zfben.com/blog/2022-04-29</guid>
             <pubDate>Fri, 29 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-04-29">https://zfben.com/blog/2022-04-29</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[聊聊财务健康]]></title>
             <link>https://zfben.com/blog/2022-03-28</link>
             <guid>https://zfben.com/blog/2022-03-28</guid>
             <pubDate>Mon, 28 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-03-28">https://zfben.com/blog/2022-03-28</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[一款可终生使用的笔记软件，需要有哪些特点？]]></title>
             <link>https://zfben.com/blog/2022-03-20</link>
             <guid>https://zfben.com/blog/2022-03-20</guid>
             <pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-03-20">https://zfben.com/blog/2022-03-20</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[战争与和平]]></title>
             <link>https://zfben.com/blog/2022-03-05</link>
             <guid>https://zfben.com/blog/2022-03-05</guid>
             <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-03-05">https://zfben.com/blog/2022-03-05</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[你的人生观取向是什么？]]></title>
             <link>https://zfben.com/blog/2022-02-06</link>
             <guid>https://zfben.com/blog/2022-02-06</guid>
             <pubDate>Sun, 06 Feb 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-02-06">https://zfben.com/blog/2022-02-06</a>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[拜年及汇报今年年度目标的进展]]></title>
             <link>https://zfben.com/blog/2022-02-01</link>
             <guid>https://zfben.com/blog/2022-02-01</guid>
             <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-02-01">https://zfben.com/blog/2022-02-01</a>]]></content:encoded>
         </item>
     </channel>
 </rss>
