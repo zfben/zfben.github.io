@@ -4,10 +4,17 @@
         <title>Ben's Blog</title>
         <link>https://zfben.com/blog</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 08 Jun 2022 04:02:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jun 2022 03:56:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Zfben.com All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[如何应对互联网媒体对自己的影响？]]></title>
+            <link>https://zfben.com/blog/2022-06-25</link>
+            <guid>https://zfben.com/blog/2022-06-25</guid>
+            <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Please read the article at <a href="https://zfben.com/blog/2022-06-25">https://zfben.com/blog/2022-06-25</a>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[用觉察解决大脑的问题]]></title>
             <link>https://zfben.com/blog/2022-06-08</link>
