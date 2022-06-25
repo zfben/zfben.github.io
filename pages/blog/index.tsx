@@ -7,6 +7,10 @@ import { writeFileSync } from 'fs'
 
 const posts = [
   {
+    title: '如何应对互联网媒体对自己的影响？',
+    date: '2022-06-25',
+  },
+  {
     title: '用觉察解决大脑的问题',
     date: '2022-06-08',
   },

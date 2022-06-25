@@ -15,10 +15,6 @@ const Page: NextPage = () => {
           name="viewport"
         />
         <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
-        />
-        <link
           rel="alternate"
           hrefLang="zh"
           href="https://zfben.com/zh"
@@ -31,9 +27,11 @@ const Page: NextPage = () => {
       </Head>
       <div className="avatar">
         <Image
-          src={ require('../public/header.jpg') }
-          unoptimized
+          src='/public/header.jpg'
           alt="Avatar"
+          width={ 400 }
+          height={ 400 }
+          loader={ ({ src }) => src }
         />
       </div>
       <h1>Hi, I&#39;m Ben.</h1>

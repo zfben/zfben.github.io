@@ -28,7 +28,10 @@ const withMDX = mdx({
 
 export default withMDX({
   reactStrictMode: true,
-  images: { loader: 'custom' },
+  images: {
+    loader: 'custom',
+    domains: ['']
+  },
   pageExtensions: [
     'tsx',
     'md',

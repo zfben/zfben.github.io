@@ -17,7 +17,12 @@ class MyDocument extends Document {
   render () {
     return (
       <Html lang={ this.props.locale }>
-        <Head />
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
