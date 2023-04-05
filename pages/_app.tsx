@@ -23,7 +23,7 @@ function MyApp ({ Component, pageProps }: AppProps) {
       <Component { ...pageProps } />
     </div>
     <div className="text-xs text-gray-400 text-center">
-      &copy; 2007-2022&nbsp;
+      &copy; 2007-2023&nbsp;
       <a
         href="https://zfben.com"
         className='text-gray-600'>Zfben.com</a>

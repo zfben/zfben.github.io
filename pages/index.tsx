@@ -27,7 +27,7 @@ const Page: NextPage = () => {
       </Head>
       <div className="avatar">
         <Image
-          src='/public/header.jpg'
+          src='/header.jpg'
           alt="Avatar"
           width={ 400 }
           height={ 400 }
