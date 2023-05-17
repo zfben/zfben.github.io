@@ -22,7 +22,7 @@
     "@types/mdx": "*",
     "eslint-config-next": "*",
     "typescript": "*",
-    "@faasjs/eslint-config-react": "^0.0.3-beta.79",
+    "@faasjs/eslint-config-react": "^0.0.3-beta.81",
     "postcss": "*",
     "tailwindcss": "*",
     "autoprefixer": "*"
