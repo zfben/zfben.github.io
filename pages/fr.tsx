@@ -35,10 +35,7 @@ const Page: NextPage = () => {
         />
       </div>
       <h1>Bonjour, Je m&apos;appelle Ben.</h1>
-      <div>Un développeur complète de la pile à Shanghai, en Chine.</div>
-      <div className="links">
-        <Link href="/blog">Blog</Link>
-      </div>
+      <div>Un développeur full-stack indépendant.</div>
       <div className="social">
         <a href="https://twitter.com/zfben">
           <i className="fa fa-twitter"></i>

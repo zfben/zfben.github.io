@@ -35,10 +35,7 @@ const Page: NextPage = () => {
         />
       </div>
       <h1>你好，我是朱峰</h1>
-      <div>一名在上海的全栈工程师</div>
-      <div className="links">
-        <Link href="/blog">博客</Link>
-      </div>
+      <div>一名自由职业者和全栈工程师</div>
       <div className="social">
         <a href="https://twitter.com/zfben">
           <i className="fa fa-twitter"></i>

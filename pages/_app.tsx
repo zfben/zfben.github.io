@@ -23,12 +23,13 @@ function MyApp ({ Component, pageProps }: AppProps) {
       <Component { ...pageProps } />
     </div>
     <div className="text-xs text-gray-400 text-center">
-      &copy; 2007-2023&nbsp;
+      &copy; 2007-2024&nbsp;
       <a
         href="https://zfben.com"
         className='text-gray-600'>Zfben.com</a>
         &nbsp;All Rights Reserved.
     </div>
+    <Script async data-uid="55d011b3cc" src="https://zfben.ck.page/55d011b3cc/index.js"></Script>
   </>
 }
 
