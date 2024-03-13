@@ -48,7 +48,7 @@ const Page: NextPage = () => {
         </a>
       </div>
       <div className="contact">
-        <a href="mailto:ben@zfben.com">Contact Me</a>
+        <a href="https://zfben.ck.page/55d011b3cc">Stay informed about my projects & tools!</a>
       </div>
       <div className="lang">
         <Link

@@ -69,8 +69,10 @@ div :global(social a:hover){
 }
 
 .contact{
+  overflow: hidden;
+  display: block;
   margin: 0 auto;
-  width: 9em;
+  width: 20em;
   height: 2em;
   cursor: pointer;
   position: relative;
@@ -78,12 +80,11 @@ div :global(social a:hover){
 }
 
 div :global(.contact a) {
-  border: 1px solid #333;
-  border-radius: 0.3em;
   width: 100%;
   position: absolute;
   left: 0;
   top: 0;
+  text-decoration: underline;
 }
 
 .lang {
