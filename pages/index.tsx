@@ -32,6 +32,7 @@ const Page: NextPage = () => {
           width={ 400 }
           height={ 400 }
           loader={ ({ src }) => src }
+          unoptimized
         />
       </div>
       <h1>Hi, I&#39;m Ben.</h1>
