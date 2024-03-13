@@ -22,23 +22,13 @@
     "@types/mdx": "*",
     "eslint-config-next": "*",
     "typescript": "*",
-    "@faasjs/eslint-config-react": "^0.0.4-beta.14",
     "postcss": "*",
     "tailwindcss": "*",
     "autoprefixer": "*"
   },
   "eslintConfig": {
     "extends": [
-      "next/core-web-vitals",
-      "@faasjs/react"
-    ],
-    "rules": {
-      "react/no-unknown-property": [
-        2,
-        {
-          "ignore": ["jsx", "global"]
-        }
-      ]
-    }
+      "next/core-web-vitals"
+    ]
   }
 }
