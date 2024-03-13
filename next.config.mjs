@@ -27,6 +27,7 @@ const withMDX = mdx({
 })
 
 export default withMDX({
+  output: 'export',
   reactStrictMode: true,
   images: {
     loader: 'custom',
