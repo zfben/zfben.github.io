@@ -29,6 +29,10 @@ function MyApp ({ Component, pageProps }: AppProps) {
         href="https://zfben.com"
         className='text-gray-600'>Zfben.com</a>
         &nbsp;All Rights Reserved.
+      <br />
+      <a
+        href="/privacy"
+        className='text-gray-600'>Privacy Policy</a>
     </div>
     <Script async data-uid="55d011b3cc" src="https://zfben.ck.page/55d011b3cc/index.js"></Script>
   </>
