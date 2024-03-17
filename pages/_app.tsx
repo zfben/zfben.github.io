@@ -18,7 +18,6 @@ function MyApp ({ Component, pageProps }: AppProps) {
     <Script
       id="google-analytics"
       strategy="afterInteractive">{'window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",\'G-0WNKPPDJC9\')'}</Script>
-    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0049636498302507" crossOrigin="anonymous" />
     <div
       className='w-full'
       style={ { minHeight: 'calc(100vh - 2rem)' } }>
