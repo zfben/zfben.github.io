@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import Link from 'next/link'
 import Script from 'next/script'
 
 function MyApp ({ Component, pageProps }: AppProps) {
@@ -30,9 +31,9 @@ function MyApp ({ Component, pageProps }: AppProps) {
         className='text-gray-600'>Zfben.com</a>
         &nbsp;All Rights Reserved.
       <br />
-      <a
+      <Link
         href="/privacy"
-        className='text-gray-600'>Privacy Policy</a>
+        className='text-gray-600'>Privacy Policy</Link>
     </div>
     <Script async data-uid="55d011b3cc" src="https://zfben.ck.page/55d011b3cc/index.js"></Script>
   </>
