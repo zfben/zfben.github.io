@@ -13,11 +13,11 @@ function MyApp ({ Component, pageProps }: AppProps) {
     </Head>
     <Script
       strategy="afterInteractive"
-      src="https://www.googletagmanager.com/gtag/js?id=G-0WNKPPDJC9"
+      src="https://www.googletagmanager.com/gtag/js?id=G-Y7QZP28QBZ"
     />
     <Script
       id="google-analytics"
-      strategy="afterInteractive">{'window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",\'G-0WNKPPDJC9\')'}</Script>
+      strategy="afterInteractive">{'window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",\'G-Y7QZP28QBZ\')'}</Script>
     <div
       className='w-full'
       style={ { minHeight: 'calc(100vh - 2rem)' } }>
